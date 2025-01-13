@@ -4,7 +4,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
     systems.url = "github:nix-systems/default";
-    rust-flake.url = "github:juspay/rust-flake";
+    rust-flake.url = "github:conscious-puppet/rust-flake?refs=update-rust-overlay-input&rev=f17dc42602044aac362d363d8179ee74e4567b92";
     rust-flake.inputs.nixpkgs.follows = "nixpkgs";
     process-compose-flake.url = "github:Platonic-Systems/process-compose-flake";
     cargo-doc-live.url = "github:srid/cargo-doc-live";

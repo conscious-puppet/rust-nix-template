@@ -17,10 +17,7 @@
     },
     "crane": {
       "inputs": {
-        "nixpkgs": [
-          "rust-flake",
-          "nixpkgs"
-        ]
+        "nixpkgs": "nixpkgs_2"
       },
       "locked": {
         "lastModified": 1718474113,
@@ -88,6 +85,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1736693123,
+        "narHash": "sha256-9lIfXCaBPwUA7FnfDnoH4gxxdOvXG78k6UlUw0+ZDxc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2fdec2c2e68b7b7845d1ea4e0894c63143e3261b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "process-compose-flake": {
       "locked": {
         "lastModified": 1724606023,
@@ -123,16 +136,17 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1725924735,
-        "narHash": "sha256-pMrezXpLk6WPhHKJmFekoga6rQZPgfpwYABbJtMESEY=",
-        "owner": "juspay",
+        "lastModified": 1736713226,
+        "narHash": "sha256-WioA+Vk7suDK+Ek77rDlbuxV6WqwFt30JsKHrmDCSiU=",
+        "owner": "conscious-puppet",
         "repo": "rust-flake",
-        "rev": "c5c73ff9f4daa7dcc22b8089ea2a57420db60016",
+        "rev": "f17dc42602044aac362d363d8179ee74e4567b92",
         "type": "github"
       },
       "original": {
-        "owner": "juspay",
+        "owner": "conscious-puppet",
         "repo": "rust-flake",
+        "rev": "f17dc42602044aac362d363d8179ee74e4567b92",
         "type": "github"
       }
     },
